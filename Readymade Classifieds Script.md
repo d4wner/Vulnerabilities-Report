@@ -8,7 +8,9 @@ http://live.posty.in/admin/user_activate_submit.php
 
 #### Unauthorized access:
 
-For example, this link is an backend link ,which should not be viewed by visitors, this vulnerability could leak some sensitive Information or be exploit by evil user.
+For example, this link is a backend link ,which should not be viewed by visitor.
+
+This vulnerability need not to login into the backend, which could leak some sensitive Information or be exploited by the evil user.
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Readymade-Classifieds-Script/access.png)
 
