@@ -19,9 +19,13 @@ And  SQL Injection and XSS vulnerability also exist here:
 http://live.posty.in/admin/user_activate_submit.php?ID=457%27%22%3E%3Csvg/onload=alert(/xss/)%3E%3C%27%22
 
 
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Readymade-Classifieds-Script/xss.png)
 
 
 ##### SQL Injection:
+
+
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Readymade-Classifieds-Script/sqli.png)
 
 
 You can see,  we can obtain the current data user or more sensitive data now!
