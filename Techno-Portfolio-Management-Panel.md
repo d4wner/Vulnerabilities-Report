@@ -1,0 +1,38 @@
+###Techno Portfolio Management Panel - SQL Injection/XSS/Information leak
+
+Well,  when I pentest the official demo site of Techno Portfolio Management Panel.
+
+I found when I login into the backend,  it left some vulnerabilities here.
+
+##### Information leak:
+
+URL: http://dacy.esy.es/eng/panel/search.php?s=1'
+
+For example, we can get some sensitive data here like the absolute path:
+
+/home/u633631124/public_html/eng/panel/search.php
+
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Techno-Portfolio-Management-Panel/info_leak.png)
+
+
+##### xss:
+
+URL: http://dacy.esy.es/eng/panel/search.php?s=123%27%22%3E%3Csvg/onload=alert(document.cookie)%3E%3C%27%22
+
+For example, We can get the site cookie here or do something more evilly. 
+
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Techno-Portfolio-Management-Panel/xss.png)
+
+
+##### SQL Injection:
+
+
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Techno-Portfolio-Management-Panel/sqli.png)
+
+URL: http://dacy.esy.es/eng/panel/search.php?s=1
+
+For example, We can get database user or other info here , using some tools or just by hand:
+
+current user:    'u633631124_dacy@10.2.1.20'
+
+
