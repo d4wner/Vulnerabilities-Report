@@ -38,14 +38,14 @@ The xss poc content in the evil.htm:
 </html>
 ```
 
-At last, the admin user write evil stored-xss content to the admin panel by himself, the evil attacker don't need to login into admin panel personally.
+At last, the admin user write evil stored-xss content to the admin panel by himself, and the evil attacker don't need to login into admin panel personally.
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/piwigo/xss1.png)
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/piwigo/xss2.png)
 
 We should add some sec-character-filter to the output of the site , even in the admin panel.
-Also , adding csrf protection to the important operation in the pa
+On the other hand, adding csrf protection to the important operation in the admin panel,is also needed to be considered.
 
 
 
