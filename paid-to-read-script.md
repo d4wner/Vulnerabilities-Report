@@ -13,7 +13,7 @@ http://74.124.215.220/~paioread/admin/userview.php?uid=3
 http://74.124.215.220/~paioread/admin/userview.php?uid=12%27
 
 Get absolute-path:
-/home/paioread/public_html/admin/userview.ph
+/home/paioread/public_html/admin/userview.php
 ```
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/paid-to-read-script/info_leak.png)
