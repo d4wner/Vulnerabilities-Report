@@ -132,5 +132,3 @@ poc:
 
 This vulnerability does not need evil attacker to login into the user panel.
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Readymade-Video-Sharing-Script/csrf.png)
-
