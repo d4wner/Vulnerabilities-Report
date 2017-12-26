@@ -17,7 +17,7 @@ Content-Disposition: form-data; name="username"
 123
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Resume Clone Script/sqli.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Resume-Clone-Script/sqli.png)
 
 
 You can see,  we can obtain the current data user or more sensitive data now!
