@@ -59,7 +59,6 @@ abc pvt ltd'"><svg/onload=alert(document.cookie)><'"
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sxss.png)
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/sxss2.png)
 
 
 #### SQL Injection:
