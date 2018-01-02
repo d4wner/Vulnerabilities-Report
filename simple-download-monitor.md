@@ -29,7 +29,7 @@ Then we can publish the post or just submit it to the admin user for an audit.
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/simple-download-monitor/sxss4.png)
 
-It won't be long beofore I get the other user's cookie or do something more evilly.
+It won't be long beofore I get the other user, even the admin user's cookie or do something more evilly.
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/simple-download-monitor/sxss3.png)
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/simple-download-monitor/sxss5.png)
