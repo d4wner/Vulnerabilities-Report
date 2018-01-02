@@ -4,6 +4,11 @@ When I login into the wordpress panel, assume I have a low privilege role like a
 
 Because the admin user has turned on the option of the wp-plugin  simple-download-monitor, a normal user like me can also use it.
 
+Now I can write something in the function "Edit Download":
+```
+http://localhost/wordpress/wp-admin/post.php?post=x&action=edit
+```
+
 But when I fuzz the parameters in this plugin, I found when I write something into these points, it does not filter well:
 ```
 1. File Thumbnail (Optional)
