@@ -20,7 +20,7 @@ http://localhost/wordpress/wp-admin/profile.php
 But when I pentest the  parameter in this plugin, I found when I write something into this point, it does not filter well:
 
 
-Weak parameter:
+Weak post parameter:
 ```
 al2fb_facebook_id='"><img src=x onerror=console.log(/xss_att_fackbookid/)><'"
 ```
