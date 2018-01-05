@@ -27,7 +27,7 @@ When the other users or the admin tried to edit the shared page, we'll get the u
 
 Here I login in the panel as the admin user, and visit the page with the stored-xss content.
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/wp-simple-booking-calendar/extra-xss2.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/wp-simple-booking-calendar/extras-xss2.png)
 
 
 
