@@ -4,7 +4,7 @@ Well ,sir ,I just found Stored-XSS bugs and a CSRF bug here.
 
 ##### Stored-XSS at extras
 
-When the user click the "extras" link，edit something and save changes， he'll post some data to:
+When the user click the "Extras" link，edit something and save changes， he'll post some data to:
 
 ```
 http://localhost/wordpress/wp-admin/admin.php?page=wpdevart-extras
@@ -33,7 +33,7 @@ Here I login in the panel as the admin user, and visit the page with the stored-
 
 ##### Stored-XSS at themes
 
-When the user click the "extras" link，edit something and save changes， he'll post some data to:
+When the user click the "Themes" link，edit something and save changes， he'll post some data to:
 
 ```
 http://localhost/wordpress/wp-admin/admin.php?page=wpdevart-themes
@@ -61,7 +61,7 @@ Here I login in the panel as the admin user, and visit the page with the stored-
 
 ##### Stored-XSS at forms
 
-When the user click the "extras" link，edit something and save changes， he'll post some data to:
+When the user click the "Forms" link，edit something and save changes， he'll post some data to:
 
 ```
 http://localhost/wordpress/wp-admin/admin.php?page=wpdevart-forms
