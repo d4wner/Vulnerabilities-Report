@@ -57,7 +57,7 @@ panel=%27%22%3E%3Csvg%2Fonload%3Dconsole.log(%2Fxss4%2F)%3E%3C%27%22
 ```
 
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/yet-another-stars-rating/xss.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/gd-rating-system/xss.png)
 
 ### LFI
 
@@ -135,7 +135,7 @@ Weak code:
 include(GDRTS_PATH.'forms/panels/'.$_panel.'.php');
 ```
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/yet-another-stars-rating/lfi.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/gd-rating-system/lfi.png)
 
 
-Well,  by the way, I just test these bugs in the wordpress 4.9.1 and the latest version of the wp-plugin yet-another-stars-rating.
+Well,  by the way, I just test these bugs in the wordpress 4.9.1 and the latest version of the wp-plugin gd-rating-system.
