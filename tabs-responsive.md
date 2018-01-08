@@ -1,27 +1,34 @@
-Well ,sir ,I just found a Any-Directory-Traversal bug here.
+Well ,sir ,I just found a Stored-XSS bug here.
 
 When I login into the wordpress panel, assume I have a low privilege role like a editor user.
 
-Because the admin user has turned on the option of the wp-plugin Media from FTP, a normal user like me can also use it.
+Because the admin user has turned on the option of the wp-plugin  tabs-responsive, a normal user like me can also use it.
 
-When I visit the page as a normal user:
+When I edit the setting page of tabs-responsive, I write something evil into it:
+
+Firstly, I should click the url ,and edit some thing in the single page:
 
 ```
-http://localhost/wordpress/wp-admin/admin.php?page=mediafromftp-search-register
+http://localhost/wordpress/wp-admin/post.php?post=x&action=edit
 ```
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/tabs-responsive/page.png)
 
-It's should be a function of the plugin ,which can view some normal files at the website folder.
+Then I should save the changes:
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/media-from-ftp/search.png)
+Post url；
 
-Then I click the search button in the page, post something to the url:
+```
+http://localhost/wordpress/wp-admin/post.php
+```
 
 Weak post para:
 
 ```
-searchdir=wp-content/../../
+post_title=<script>console.log(/xss/)</script>
 ```
 
-We can change the value of the para "searchdir", and we'll view any other files or folders at the server, not only the website.
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/tabs-responsive/sxss1.png)
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/media-from-ftp/dir.png)
+Once the other users or the manager view the edit page , I'll get the cookies of theirs , or do something more evilly.
+
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/tabs-responsive/sxss2.png)
