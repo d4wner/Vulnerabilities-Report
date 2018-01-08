@@ -29,6 +29,6 @@ post_title=<script>console.log(/xss/)</script>
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/tabs-responsive/sxss1.png)
 
-Once the other users or the manager view the page , I'll get the cookies of theirs , or do something more evilly.
+Once the other users or the manager view the edit page , I'll get the cookies of theirs , or do something more evilly.
 
 ![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/tabs-responsive/sxss2.png)
