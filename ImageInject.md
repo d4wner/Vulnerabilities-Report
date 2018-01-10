@@ -1,5 +1,7 @@
 Well ,sir ,I just found a Stored-XSS bug and a CSRF bug here.
 
+The report link to the wordpress-form is missing, because the manager do not wish to put the public in danger ,I'll just write some details here.
+
 #### Stored-XSS
 
 When the admin user click the "Save All Settings" button in the ImageInject setting page, we'll post some data to:
