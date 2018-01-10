@@ -1,5 +1,7 @@
 Well ,sir ,I just found some XSS bugs and LFI(Local File Include) bug here.
 
+The report link to the wordpress-form is missing, because the manager do not wish to put the public in danger ,I'll just write some details here.
+
 #### XSS
 
 Here different php files suffer from the bug, exactly, some other files also don't filter well.
