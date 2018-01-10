@@ -1,5 +1,8 @@
 Well ,sir ,I just found a Stored-XSS bug here.
 
+The report link to the wordpress-form is missing, because the manager do not wish to put the public in danger ,I'll just write some details here.
+
+
 When I login into the wordpress panel, assume I have a low privilege role like a editor user.
 
 ```
