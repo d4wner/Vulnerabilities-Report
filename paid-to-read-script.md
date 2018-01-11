@@ -1,5 +1,8 @@
 ### Paid To Read Script  SQL Injection/XSS/Unauthorized access/Sensitive information leak
 
+#### ADLab of Venustech
+
+
 Well, when I pentest the official demo site of Paid To Read Script, I found some vulnerabilities here.
 
 
