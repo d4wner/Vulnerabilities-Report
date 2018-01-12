@@ -123,4 +123,9 @@ POC:
 In a word, if the other user could be cheated to visit my evil html on my site, or I just a low privilege role to edit something in the shared page, I can get other users' cookie easily, or do something more evilly.
 
 
-Well,  by the way, I just test the bug in the wordpress 4.9.1 and the latest version of the wp-plugin booking-calendar.
+Well,  by the way, I just test the bug in the wordpress 4.9.1 and the latest version of the wp-plugin booking-calendar v1.84.
+
+Download link:
+```
+https://downloads.wordpress.org/plugin/booking-calendar.1.8.4.zip
+```
