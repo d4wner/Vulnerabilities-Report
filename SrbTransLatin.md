@@ -46,4 +46,4 @@ POC:
 In a word, if the manager could be cheated to visit my evil html on my site, I can get the manager's cookie easily, or do something more evilly.
 
 
-Well,  by the way, I just test the bug in the wordpress 4.9.1 and the latest version of the wp-plugin SrbTransLatin.
+Well,  by the way, I just test the bug in the wordpress 4.9.1 and the wp-plugin SrbTransLatin v1.47.
