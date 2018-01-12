@@ -23,13 +23,13 @@ extra_field1[items][field_item1][price_percent]=\"><img src=x onerror=console.lo
 
 Here we got a low privilege role like a editor user：
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/wp-simple-booking-calendar/extra-xss1.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/booking-calendar/extra-xss1.png)
 
 When the other users or the admin tried to edit the shared page, we'll get the users' cookie easily, or do something more evilly.
 
 Here I login in the panel as the admin user, and visit the page with the stored-xss content.
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/wp-simple-booking-calendar/extras-xss2.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/booking-calendar/extras-xss2.png)
 
 
 
@@ -52,13 +52,13 @@ sale_conditions[count][]='"><svg/onload=console.log(/xss2/)><'"
 
 Here we got a low privilege role like a editor user：
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/wp-simple-booking-calendar/themes-xss1.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/booking-calendar/themes-xss1.png)
 
 When the other users or the admin tried to edit the shared page, we'll get the users' cookie easily, or do something more evilly.
 
 Here I login in the panel as the admin user, and visit the page with the stored-xss content.
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/wp-simple-booking-calendar/themes-xss2.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/booking-calendar/themes-xss2.png)
 
 
 ##### Stored-XSS at forms
@@ -80,13 +80,13 @@ form_field5[label]=Message'"><svg/onload=console.log(/xss3/)><'"
 
 Here we got a low privilege role like a editor user：
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/wp-simple-booking-calendar/form-xss1.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/booking-calendar/form-xss1.png)
 
 When the other users or the admin tried to edit the shared page, we'll get the users' cookie easily, or do something more evilly.
 
 Here I login in the panel as the admin user, and visit the page with the stored-xss content.
 
-![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/wp-simple-booking-calendar/form-xss2.png)
+![image](https://raw.githubusercontent.com/d4wner/Vulnerabilities-Report/master/pic/booking-calendar/form-xss2.png)
 
 #### CSRF
 
@@ -123,4 +123,4 @@ POC:
 In a word, if the other user could be cheated to visit my evil html on my site, or I just a low privilege role to edit something in the shared page, I can get other users' cookie easily, or do something more evilly.
 
 
-Well,  by the way, I just test the bug in the wordpress 4.9.1 and the latest version of the wp-plugin wp-simple-booking-calendar.
+Well,  by the way, I just test the bug in the wordpress 4.9.1 and the latest version of the wp-plugin booking-calendar.
