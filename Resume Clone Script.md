@@ -1,4 +1,4 @@
-### SResume Clone Script- the lastest version - SQL Injection
+### Resume Clone Script- the lastest version - SQL Injection
 
 #### ADLab of Venustech
 
