@@ -1,5 +1,7 @@
 Well ,sir ,I just found a Stored-XSS bug and a CSRF bug at wp-plugin SrbTransLatin.
 
+#### ADLab of Venustech
+
 #### Stored-XSS
 
 When the admin user click the "Update Options" button in the SrbTransLatin setting page, we'll post some data to:
