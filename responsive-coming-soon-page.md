@@ -1,5 +1,7 @@
 Well ,sir ,I just found some Stored-XSS bugs and a CSRF bug at wp-plugin responsive-coming-soon-page.
 
+#### ADLab of Venustech
+
 #### Stored-XSS
 
 When the admin user click the "Save Options" button in the responsive-coming-soon-page setting page, we'll post some data to:
